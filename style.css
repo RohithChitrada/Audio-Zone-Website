@@ -1,0 +1,123 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    background-color: rgb(35, 34, 34) !important;
+    color: white!important;
+}
+nav{
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-item{
+    padding: 0px 10px;
+}
+.navbar .nav-item .nav-link.active{
+    color: red !important;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.navbar-toggler .navbar-toggler-icon {
+    color: white;
+    display: block;
+    justify-content: space-around;
+}
+.cart{
+    font-size: 29px;
+    font-weight: 100;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: white!important;
+}
+h2,h3,h4,h5,h6{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+span{
+    color: red;
+}
+img{
+    width: 100%;
+}
+.divider{
+    width: 170px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 3px;
+    background-color: red;
+}
+.btn-navbar{
+    color: white;
+    display: inline-block;
+    background-color: rgb(201, 40, 40);
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 35px;
+    text-decoration: none;
+}
+.btn-navbar:hover{
+    background-color: red;
+}
+.bg-brand{
+    color: white;
+    display: inline-block;
+    background-color: rgb(201, 40, 40)!important;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px 35px;
+    text-decoration: none;
+}
+.bg-white{
+    background-color: #fff;
+}
+.bg-white:hover{
+    background-color: #fff;
+}
+
+.section-padding{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section-on-hover{
+    transition: all 0.4s;
+    background: black;
+    border-radius: 10px;
+}
+.section-on-hover:hover{
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.top-banner{
+    width: 100%;
+    height: 100vh;
+    padding: 16.875rem 0 9.375rem;
+    margin-top: 25px;
+}
+.menu-item img{
+    width: 100%;
+    height: 35vh;
+}
+::placeholder{
+    color: #fff!important;
+}
+.stars{
+    color: rgb(234, 186, 54);
+}
+.social{
+    font-size: 30px;
+    color: red;
+}
+.section-padding1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.navbar-scrolled{
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
